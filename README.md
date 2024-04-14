@@ -1,6 +1,6 @@
 # Walmart-Sales-Data-Analysis
 ## Overview:
-### This project aims to perform basic SQL queries on the "walmart Dataset" to gain insights into customer behavior, sales trends, and product performance. The dataset contains information about invoices, branches, cities, customer types, gender, product lines, unit prices, quantities, taxes, total amounts, dates, times, payments, cost of goods sold (COGS), gross margin percentages, gross incomes, and customer ratings.
+### This project aims to perform basic SQL queries on the "Walmart Dataset" to gain insights into customer behavior, sales trends, and product performance. The dataset contains information about invoices, branches, cities, customer types, gender, product lines, unit prices, quantities, taxes, total amounts, dates, times, payments, cost of goods sold (COGS), gross margin percentages, gross incomes, and customer ratings.
 
 <br/>
 
@@ -10,7 +10,7 @@
 <br/>
 
 ## About Data
-#### The dataset was obtained from the Kaggle Walmart Sales Forecasting Competition. This dataset contains sales transactions from a three different branches of Walmart, respectively located in Mandalay, Yangon and Naypyitaw. The data contains 17 columns and 1000 rows.
+#### The dataset was obtained from the[ Kaggle Walmart Sales Forecasting Competition](https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting). This dataset contains sales transactions from three different branches of Walmart, respectively located in Mandalay, Yangon and Naypyitaw. The data contains 17 columns and 1000 rows.
 
 
 <br/>
@@ -21,6 +21,8 @@
 #### 3) Exploratory Data Analysis (EDA): Exploratory data analysis is done to answer some questions and aims of this project.
 
 <br/>
+
+
 
 ## Results and Insights:
 #### Total sales amount: 320886.3945
