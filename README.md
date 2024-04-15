@@ -1,4 +1,4 @@
-# Walmart-Sales-Data-Analysis
+# Walmart-SQL-Sales-Data-Analysis
 ## Overview:
 ### This project aims to perform basic SQL queries on the "Walmart Dataset" to gain insights into customer behavior, sales trends, and product performance. The dataset contains information about invoices, branches, cities, customer types, gender, product lines, unit prices, quantities, taxes, total amounts, dates, times, payments, cost of goods sold (COGS), gross margin percentages, gross incomes, and customer ratings.
 
