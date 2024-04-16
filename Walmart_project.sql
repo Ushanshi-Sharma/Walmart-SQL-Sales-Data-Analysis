@@ -21,10 +21,15 @@ gross_income DECIMAL (12,4) NOT NULL,
 rating FLOAT (2,1) NOT NULL) ; 
 
 
+
+
 -- --------------------------------------------------------------------------------
 -- --------------------- FEATURE ENGEENERING ---------------------------------------
 
+
 -- ---------------------  time of day  ----------------------------------------------
+
+
 
 SELECT time,
 CASE 
@@ -49,6 +54,8 @@ SET time_of_day = (case
 SET sql_safe_updates = 0;
 
 
+
+
 -- -----------------------    day_name -----------------------------------------
 
 SELECT date,
@@ -62,6 +69,9 @@ UPDATE walmart
 SET day = DAYNAME(date);
 
 SELECT * FROM walmart;
+
+
+
 
 -- -----------------------    month_name -----------------------------------------
 
@@ -77,10 +87,17 @@ SET month_name = MONTHNAME(date);
 
 SELECT * FROM walmart;
 
+
+
+
 -- --------------------------------------------------------------------------------------
 -- --------------------- Exploratory Data Analysis ---------------------------------------
 
+
+
 -- -------------------------- Generic Question ------------------------------------------
+
+
 -- 1) How many unique cities does the data have?
 SELECT DISTINCT(city)
 FROM walmart;
@@ -89,6 +106,9 @@ FROM walmart;
 SELECT city,branch
 FROM walmart
 group by city,branch;
+
+
+
 
 -- -------------------------- Product Based Questions ------------------------------------------
 
@@ -141,7 +161,13 @@ GROUP BY product_line
 ORDER BY avg_rating DESC;
 
 
+
+
+
+
 -- -------------------------- Sales Based Questions ------------------------------------------
+
+
 
 -- Number of sales made in each time of the day per weekday
 SELECT day, time_of_day, SUM(total) as total_sales
@@ -168,7 +194,13 @@ GROUP BY customer_type
 ORDER BY AVG(VAT) DESC;
 
 
+
+
+
+
 -- -------------------------- Customers Based Questions ------------------------------------------
+
+
 
 SELECT * FROM walmart;
 -- How many unique customer types does the data have?
@@ -211,7 +243,8 @@ ORDER BY total_sales DESC;
 
 
 
-
+-- ------------------------------------- END ---------------------------------------
+-- ------------------------------------THANK YOU -----------------------------------
 
 
 
